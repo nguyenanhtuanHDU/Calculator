@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <title>My Calculator</title>
+    <link rel="icon" href="./assets/image/3.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <div class="container">
+
+        <form action="">
+            <input type="number" name="" id="first_num">
+            <select id="select">
+                <option align="center" value="Chọn phép tính">Chọn phép tính</option>
+                <option align="center" value="+">+</option>
+                <option align="center" value="-">-</option>
+                <option align="center" value="x">x</option>
+                <option align="center" value="/">/</option>
+                <option align="center" value="%">%</option>
+                <option align="center" value="^">^</option>
+            </select>
+            <input type="number" name="" id="second_num">
+            <input type="button" class="btn" value="=" onclick="cacula()">
+            <input type="text" name="" id="result">
+            <input type="reset" class="reset" value="Reset">
+        </form>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
